@@ -44,7 +44,7 @@ a {
 }
 
 .cheese {
-    width: 50%;
+    width: 80%;
     height: auto;
     position: absolute;
 
@@ -61,4 +61,8 @@ a {
 ul {
     list-style-type: none;
     line-height: 200%;
+}
+
+p {
+    font-size: 1.5rem;
 }
