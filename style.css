@@ -3,11 +3,6 @@
     src: url("AppleSDGothicNeoR00-01.otf") format("opentype");
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -19,50 +14,32 @@ html {
 }
 
 body {
-    background-color: RGB(222, 222, 222);
+    background-color: RGB(248, 248, 242);
 }
 
-font {
-    color: #2e2e2e;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-.wrap {
+.brice {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-25%, -50%);
 
-    animation: fadein 1.5s;
-    -webkit-animation: fadein 1.5s;
-    animation-fill-mode: forwards;
-    opacity: 0;
+    font-size: 1.5rem;
 }
 
 .cheese {
-    width: 80%;
-    height: auto;
     position: absolute;
-
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    animation: fadein 1.5s;
-    -webkit-animation: fadein 1.5s;
-    animation-fill-mode: forwards;
-    opacity: 0;
+    font-size: 1.5rem;
 }
 
 ul {
     list-style-type: none;
-    line-height: 200%;
+    font-size: 1rem;
 }
 
-p {
-    font-size: 1.5rem;
-}
+a:link {
+    text-decoration: none;
+  }
