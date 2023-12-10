@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Noto+Sans+KR:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(15, 15, 15);
+    color: rgb(15, 15, 15);
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:62.5%;
+}
+
+.wrapper {
+    width: 25vw;
+    height: 80vh;
+    padding: 1rem;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+}
+
+a {
+    color: rgb(15, 15, 15);
+}
+
+p {
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+hr {
+    border: 0.01rem solid #000;
+    margin-bottom: 0.5rem;
+}
+
+#img {
+    width: 100%;
+}
+
+@media all and (max-width: 1024px){
+    .wrapper {
+        width: 70vw;
+        height: 50vh;
+    }
+}
+@media all and (max-width: 768px){
+	.wrapper {
+        width: 70vw;
+        height: 50vh;
+    }
+}
